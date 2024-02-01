@@ -3,7 +3,6 @@ export default {
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
-    "./node_modules/flowbite/**/*.js"
   ],
 
   theme: {
@@ -12,5 +11,6 @@ export default {
   plugins: [
     'prettier-plugin-tailwindcss',
     require('flowbite/plugin')
+
   ],
 }
