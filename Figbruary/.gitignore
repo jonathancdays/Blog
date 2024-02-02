@@ -11,6 +11,7 @@ node_modules
 dist
 dist-ssr
 *.local
+creative-process
 
 # Editor directories and files
 .vscode/*
