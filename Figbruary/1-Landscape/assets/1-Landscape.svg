@@ -1,4 +1,4 @@
-<svg width="987" height="651" viewBox="0 0 987 651" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="988" height="651" viewBox="0 0 987 651" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g clip-path="url(#clip0_3_2)">
 <rect width="987" height="651" fill="white"/>
 <g filter="url(#filter0_dddddd_3_2)">
@@ -7,7 +7,7 @@
 </g>
 <g clip-path="url(#clip1_3_2)">
 <rect width="986" height="650" fill="black" fill-opacity="0.5"/>
-<g clip-path="url(#clip2_3_2)">
+<g id="stars" clip-path="url(#clip2_3_2)">
 <circle cx="978.719" cy="108.248" r="0.5" fill="#C27803"/>
 <circle cx="756.059" cy="93.2599" r="0.5" fill="#C27803"/>
 <circle cx="684.316" cy="58.4656" r="0.5" fill="#C27803"/>
@@ -563,10 +563,10 @@
 </g>
 <path id="back-wave" fill-rule="evenodd" clip-rule="evenodd" d="M0 398L41.125 427.556C82.25 457.111 164.5 516.222 246.75 511.296C329 506.37 411.25 437.407 493.5 427.556C575.75 417.704 658 466.963 740.25 471.889C822.5 476.815 904.75 437.407 945.875 417.704L987 398V664H945.875C904.75 664 822.5 664 740.25 664C658 664 575.75 664 493.5 664C411.25 664 329 664 246.75 664C164.5 664 82.25 664 41.125 664H0V398Z" fill="#0099FF"/>
 <g filter="url(#filter5_dddddd_3_2)">
-<path d="M957 123C957 178.228 912.228 223 857 223C801.772 223 757 178.228 757 123C757 67.7715 801.772 23 857 23C912.228 23 957 67.7715 957 123Z" fill="#C27803"/>
+<path id="yellow-star" d="M957 123C957 178.228 912.228 223 857 223C801.772 223 757 178.228 757 123C757 67.7715 801.772 23 857 23C912.228 23 957 67.7715 957 123Z" fill="#C27803"/>
 </g>
 <g filter="url(#filter6_dddddd_3_2)">
-<circle cx="811" cy="173" r="75" fill="#233876"/>
+<circle id="blue-star" cx="811" cy="173" r="75" fill="#233876"/>
 </g>
 </g>
 <defs>

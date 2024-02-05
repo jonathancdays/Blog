@@ -17,6 +17,15 @@ body {
 	margin: 0 auto;
 }
 
+main {
+	margin: 0 auto;
+}
+
+svg {
+	width: 100%;
+	overflow: visible;
+}
+
 /* Animation */
 
 water {
