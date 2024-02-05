@@ -1,9 +1,9 @@
 [build]
-    base = "Figbruary/"
+    base = "./"
     command = "npm run build"
-    publish = "Figbruary/dist/"
+    publish = "dist/"
 
 [[redirects]]
   from = "/*"
-  to = "/Figbruary/:splat"
+  to = "/:splat"
   status = 200
