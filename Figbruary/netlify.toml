@@ -4,6 +4,7 @@
     publish = "dist/"
 
 [[redirects]]
-  from = "/*"
-  to = "/:splat"
+  from = "/public/*"
+  to = "/Figbruary/:splat"
   status = 200
+
