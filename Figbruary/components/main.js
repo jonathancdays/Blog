@@ -11,11 +11,11 @@ anime({
 
 anime({
   targets: '.front-wave',
-  translateY: 150,
+  translateY: 125,
   direction: 'alternate',
   loop: true,
   easing: 'cubicBezier(.5, .05, .1, .3)',
-  duration: 3100,
+  duration: 3000,
 });
 
 anime({
