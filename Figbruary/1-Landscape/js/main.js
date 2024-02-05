@@ -1,9 +1,6 @@
-import { gsap } from "gsap";
-    
-import { Flip } from "gsap/Flip";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
-import { Draggable } from "gsap/Draggable";
-import { MotionPathPlugin } from "gsap/MotionPathPlugin";
+import anime from 'animejs';
 
-
-gsap.registerPlugin(Flip,ScrollTrigger,Draggable,MotionPathPlugin);
+anime({
+  targets: '.water',
+  translateX: 250
+});
