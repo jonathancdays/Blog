@@ -20,6 +20,7 @@
   "dependencies": {
     "animejs": "^3.2.2",
     "flowbite": "^2.2.1",
-    "netlify-cli": "^17.15.7"
+    "netlify-cli": "^17.15.7",
+    "swup": "^4.5.2"
   }
 }
