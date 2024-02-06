@@ -1,14 +1,10 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
 
 * {
 	margin: 0;
 	padding: 0;
-}
-
-html {
-	background-color: #000;
 }
 
 body {
@@ -25,18 +21,3 @@ svg {
 	width: 100%;
 	overflow: visible;
 }
-
-/* Animation */
-
-water {
-
-}
-
-#front-wave {
-
-}
-
-#back-wave {
-
-}
-
