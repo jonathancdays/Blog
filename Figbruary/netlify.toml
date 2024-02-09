@@ -1,5 +1,5 @@
 [build]
-    base = "Figbruary/"
+    base = "Figbruary/public"
     command = "npm run build"
     publish = "dist/"
 
