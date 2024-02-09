@@ -3,16 +3,17 @@
 
 <head>
   <meta charset="UTF-8" />
-  <link href="assets/global.css" rel="stylesheet" />
+  <link href="../css/global.css" rel="stylesheet" />
+  <link href="/dist/main.css" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Contact</title>
+  <title>About</title>
 </head>
 
 <body>
   <div id="swup" class="transition-body">
     <header>
-      <nav class="py-2.5 px-4 bg-white  lg:px-6 dark:bg-gray-800">
-        <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
+      <nav class="py-2.5 px-4 bg-white lg:px-6 dark:bg-gray-800">
+        <article class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
           <a href="https://flowbite.com" class="flex items-center">
             <img src="https://flowbite.com/docs/images/logo.svg" class="mr-3 h-6 sm:h-9" alt="Flowbite Logo" />
             <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-amber-500">Days</span>
@@ -57,39 +58,46 @@
               </li>
             </ul>
           </section>
-        </div>
+        </article>
       </nav>
     </header>
 
-    <section class="bg-white dark:bg-gray-800">
-      <div class="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
+    <article class="flex-1 bg-white dark:bg-gray-800">
+      <section class="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
         <div class="font-light text-blue-900 sm:text-lg dark:text-amber-500">
-          <h2 class="mb-4 text-4xl font-extrabold tracking-tight text-blue-900 dark:text-amber-500">We didn't reinvent
-            the wheel</h2>
-          <a href="mailto:jonathancdays@gmail.com" class="inline-flex items-center hover:underline">See a bug? Report it! <svg width="68" height="68" viewBox="0 0 68 68" fill="none" xmlns="http://www.w3.org/2000/svg">
-<mask id="mask0_25_51" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="68" height="68">
-<rect x="34" y="0.0588684" width="48" height="48" transform="rotate(45 34 0.0588684)" fill="#D9D9D9"/>
-</mask>
-<g mask="url(#mask0_25_51)">
-<path d="M21.2721 46.7279C19.7871 45.243 18.8561 43.4752 18.479 41.4246C18.1019 39.374 18.1962 37.3116 18.7618 35.2374L13.2111 33.7172L13.9535 30.8534L19.8225 32.409C20.1053 31.8905 20.4 31.3837 20.7064 30.8887C21.0128 30.3938 21.3428 29.9223 21.6963 29.4745L17.383 25.1612L19.5043 23.0398L23.8177 27.3532C24.2655 26.9996 24.7369 26.6697 25.2319 26.3632C25.7268 26.0568 26.2336 25.7622 26.7521 25.4794L25.2319 19.575L28.0957 18.8326L29.5452 24.3833C30.1345 24.2184 30.7178 24.1064 31.2953 24.0475C31.8728 23.9885 32.4561 23.9473 33.0454 23.9237C33.1868 23.688 33.3341 23.47 33.4873 23.2696C33.6405 23.0693 33.8114 22.8748 34 22.6863C34.66 22.0263 35.426 21.5078 36.2981 21.1307C37.1702 20.7535 38.0776 20.5414 39.0205 20.4943L38.9851 15.8627L41.9903 15.8274L42.0257 20.8125C42.6621 20.9774 43.2513 21.2131 43.7934 21.5196C44.3355 21.826 44.8423 22.2149 45.3137 22.6863C45.7851 23.1577 46.174 23.6645 46.4804 24.2066C46.7868 24.7487 47.0225 25.3379 47.1875 25.9743L52.1726 26.0097L52.1373 29.0149L47.4704 29.0149C47.3997 29.9341 47.1816 30.8239 46.8163 31.6842C46.451 32.5445 45.9383 33.3047 45.2783 33.9646C45.0898 34.1532 44.9071 34.3241 44.7303 34.4773C44.5536 34.6305 44.3473 34.7778 44.1116 34.9192C44.0881 35.5085 44.0409 36.086 43.9702 36.6516C43.8995 37.2173 43.7816 37.7948 43.6166 38.3841L49.1321 39.9397L48.3896 42.8035L42.556 41.2125C42.2967 41.7546 42.008 42.2673 41.6898 42.7504C41.3716 43.2336 41.0239 43.7109 40.6468 44.1823L44.9601 48.4957L42.8388 50.617L38.5255 46.3037C38.0776 46.6572 37.6062 46.999 37.1113 47.329C36.6163 47.6589 36.0977 47.9536 35.5556 48.2128L37.1113 54.0818L34.2475 54.8243L32.7626 49.2381C30.6884 49.8038 28.626 49.8981 26.5754 49.521C24.5248 49.1439 22.757 48.2128 21.2721 46.7279ZM36.6516 24.348C37.5002 24.5837 38.2957 24.9196 39.0381 25.3556C39.7806 25.7917 40.4582 26.3161 41.0711 26.9289C41.6839 27.5418 42.2024 28.2135 42.6267 28.9442C43.051 29.6749 43.3927 30.4527 43.652 31.2776C44.2884 30.3584 44.5712 29.2506 44.5005 27.9542C44.4298 26.6579 43.9938 25.609 43.1924 24.8076C42.391 24.0062 41.3362 23.5643 40.0281 23.4818C38.7199 23.3993 37.5945 23.688 36.6516 24.348ZM23.3934 44.6066C25.2083 46.4215 27.5359 47.1227 30.3761 46.7102C33.2163 46.2978 35.6028 45.1251 37.5355 43.1924C39.3033 41.4246 40.47 39.1147 41.0357 36.2627C41.6014 33.4107 40.9061 31.0066 38.9497 29.0502C36.9934 27.0939 34.5892 26.3986 31.7373 26.9643C28.8853 27.53 26.5754 28.6967 24.8076 30.4645C22.8748 32.3972 21.7022 34.7837 21.2897 37.6239C20.8773 40.4641 21.5785 42.7917 23.3934 44.6066ZM25.8683 40.0104L34.3535 31.5251L36.4749 33.6464L27.9896 42.1317L25.8683 40.0104Z" fill="#C27803"/>
-</g>
-</svg></a> 
+          <h1 class="mb-4 text-6xl font-extrabold tracking-tight text-blue-900 dark:text-amber-500"> Hello, my name is Jonathan!</h1>
+          <h2 class="mb-4 text-4xl font-bold tracking-tight text-blue-900 dark:text-amber-500">
+            <a href="https://github.com/jonathancdays/" class="inline-flex items-center hover:underline">
+              View the Challenge
+              <svg class="w-4 h-4 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                viewBox="0 0 14 10">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M1 5h12m0 0L9 1m4 4L9 9" />
+              </svg>
+            </a>
+          </h2>
+          <p class="mb-4 text-xl">I am using this challenge to improve my skillset in both design and engineering while having fun at the same time!</p>
+
         </div>
         <div class="h-auto max-w-96 mt-8">
           <img class="w-full rounded-lg"
             src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-2.png"
             alt="office content 1">
         </div>
-      </div>
-    </section>
+      </section>
+    </article>
+
+    <main class="bg-white dark:bg-gray-800">
+    </main>
 
     <footer class="h-auto bg-white md:p-8 lg:p-10 dark:bg-gray-800">
       <section class="mx-auto max-w-screen-xl text-center">
         <a href="#" class="flex justify-center items-center text-2xl font-semibold text-blue-900 dark:text-amber-500">
           Jonathan Days
         </a>
-        <p class="my-6 text-blue-900 dark:text-amber-500">Experienced Full-Stack Software Engineer proficient in
-          developing robust web applications, leveraging expertise in data processing and computer graphics.</p>
+        <p class="my-6 text-blue-900 dark:text-amber-500">
+            Hello, my name is Jonathan and I enjoy doing fun challenges to engage with communities online as well as bolster my skills!
+        </p>
         <ul class="flex flex-wrap justify-center items-center mb-6 text-blue-900 dark:text-amber-500-500">
           <li>
             <a href="about.html" class="mr-4 md:mr-6 dark:text-amber-500 hover:underline">About</a>
