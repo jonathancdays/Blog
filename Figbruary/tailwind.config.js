@@ -2,10 +2,11 @@
 module.exports = {
     content: [
       "./index.html",
-      "./about/*.html",
-      "./contact/*.html",
-      "./gallery/*.html",
-      "./src/*.{js,ts,jsx,tsx}",
+      "./about/**/*.html",
+      "./contact/**/*.html",
+      "./gallery/**/*.html",
+      "./src/**/*.js",
+      "./src/**/*.css",
       "./node_modules/flowbite/**/*.js"
     ],
   darkMode: 'class',
@@ -15,6 +16,5 @@ module.exports = {
   plugins: [
     'prettier-plugin-tailwindcss',
     require('flowbite/plugin')
-
   ],
 }
